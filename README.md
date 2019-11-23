@@ -1,7 +1,11 @@
 # Introduction
 
   This matlab code aims to percieve the depth of an image and blur the object that it detects as the background .<br/>
-  This program uses only **single image as input** unlike other smartphone algos and works on clustering and equation optimzation methods rather than Neural Networks.
+  This program uses only **single image as input** unlike other smartphone algos and works on clustering and equation optimzation methods rather than Neural Networks.<br/>
+  this is an implementation of an idea of another person's research paper<br/>
+  https://ieeexplore.ieee.org/document/6909756 <br/>
+  https://ieeexplore.ieee.org/document/8103371 <br/>
+  
   
   ## Step 1 : Conversion to LAB Colorspace and clustering
   
