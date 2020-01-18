@@ -47,19 +47,10 @@
   
   ## Step 4 : Blurring based on saliency map
   
-  we can see our saliency map is basically a depth map at this point <br/>
+  we can see our saliency map is basically a depth map <br/>
   **the optimal way would be to blur the superpixels based on their saliency values i.e: <br/><br/>
    <t/> if saliency closer to 0 , blur the portion harder <br/>
    <t/> if saliency closer to 1 , sharpen the portion more <br/>
    <t/> if saliency is around 0.5 , the portion can be left as is<br/>
    <br/>**
-   
-   due to lack of time to finish the project we implemented a cheap threshold on the depth map and produced a mask : <br/>
-   
-   <img src="https://github.com/Manjunatha-b/Portrait-Mode/blob/master/ReadmeFiles/threshed.jpg" width="400"><br/>
-   
-   the portion in white was sharpened and black was blurred and added to produce the final image : <br/>
-   
-   <img src="https://github.com/Manjunatha-b/Portrait-Mode/blob/master/ReadmeFiles/final.jpg" width="400"><br/>
-   
    
