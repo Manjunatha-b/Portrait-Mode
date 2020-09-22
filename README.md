@@ -54,3 +54,8 @@
    <t/> if saliency is around 0.5 , the portion can be left as is<br/>
    <br/>**
    
+# Running the program
+
+just run main.m with MATLAB. <br/>
+It has parameters for no.of iterations, learning rate, no.of clusters and img_path<br/>
+smaller parameters related to weight calculation can be modified in WeightGen.m<br/>
